@@ -1,0 +1,1435 @@
+{
+  "id": "b174676d-99ca-4594-92bd-629cb4e38154",
+  "version": "2.0",
+  "name": "MDC Home",
+  "url": "https://qa.medcloud.link/careers.html",
+  "tests": [{
+    "id": "ac04a7b6-ffc1-4b79-ad9c-c9e5fd45895d",
+    "name": "Header",
+    "commands": [{
+      "id": "e39eb953-cd32-4fc9-b532-9cf57e00caf9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9616cfef-eff6-450a-9d0e-45ee32ebb429",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cf4fcea-a98f-41a7-9a57-8135d551db7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerRis",
+      "targets": [
+        ["id=headerRis", "id"],
+        ["css=#headerRis", "css:finder"],
+        ["xpath=//button[@id='headerRis']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3997c398-9d8c-4b9c-ac03-5de1bae53eba",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=RIS",
+      "targets": [
+        ["id=RIS", "id"],
+        ["css=#RIS", "css:finder"],
+        ["xpath=//section[@id='RIS']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section[2]/section", "xpath:idRelative"],
+        ["xpath=//section[2]/section", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "236d0276-8861-46f8-80e0-8199d712a35a",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPacs",
+      "targets": [
+        ["id=headerPacs", "id"],
+        ["css=#headerPacs", "css:finder"],
+        ["xpath=//button[@id='headerPacs']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "359e0cfa-8dcf-49da-95f2-1d8cd4744949",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.xxl\\3Apb-16",
+      "targets": [
+        ["css=.xxl\\3Apb-16", "css:finder"],
+        ["xpath=//section[@id='PACS']/section", "xpath:idRelative"],
+        ["xpath=//section[3]/section", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "1115305c-67d0-4e55-8b80-cdf9e2a0064e",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPortal",
+      "targets": [
+        ["id=headerPortal", "id"],
+        ["css=#headerPortal", "css:finder"],
+        ["xpath=//button[@id='headerPortal']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[4]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87d093f5-4438-4bcd-94cf-7a70c922f696",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#Portal > .sm\\3Apx-6:nth-child(1)",
+      "targets": [
+        ["css=#Portal > .sm\\3Apx-6:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='Portal']/section", "xpath:idRelative"],
+        ["xpath=//section[4]/section", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "8c051f67-89b2-47a6-9137-413a18256e61",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPlans",
+      "targets": [
+        ["id=headerPlans", "id"],
+        ["css=#headerPlans", "css:finder"],
+        ["xpath=//button[@id='headerPlans']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae1beda9-b959-43e1-8b64-8985f39cc788",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.sm\\3Amb-0",
+      "targets": [
+        ["css=.sm\\3Amb-0", "css:finder"],
+        ["xpath=//section[@id='Plans']/section", "xpath:idRelative"],
+        ["xpath=//section[5]/section", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "e2c2b6c8-d11a-4f0e-9ae1-0d044df06b52",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "754e3e51-c6f6-44e8-ae94-955baa4d3421",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.xxl\\3Amy-16",
+      "targets": [
+        ["css=.xxl\\3Amy-16", "css:finder"],
+        ["xpath=//section[@id='Contact']/section", "xpath:idRelative"],
+        ["xpath=//div[5]/section[6]/section", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "7063b90f-5790-42bb-b06a-696d91daf96b",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPlans",
+      "targets": [
+        ["id=headerPlans", "id"],
+        ["css=#headerPlans", "css:finder"],
+        ["xpath=//button[@id='headerPlans']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3084267-bc4a-4243-bddf-14d34f628216",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerHome",
+      "targets": [
+        ["id=headerHome", "id"],
+        ["css=#headerHome", "css:finder"],
+        ["xpath=//button[@id='headerHome']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e32de0e-b8fe-4bb3-b332-300f83ea062b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-full > .text-white",
+      "targets": [
+        ["css=.h-full > .text-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/nav/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Testar grátis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51a778ee-cf04-47fe-a47e-b06ccffd702d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.sm\\3Aw-full > .modal-content",
+      "targets": [
+        ["css=.sm\\3Aw-full > .modal-content", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": "50000"
+    }, {
+      "id": "235a43d7-bf49-41cd-84ee-b31d2a53abe7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.z-50:nth-child(4) path",
+      "targets": [
+        ["css=.z-50:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9312f230-e6da-4f72-9ab8-5f18fbc687e1",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "3ef13dd8-26bd-4ea1-999e-c1f58a987906",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-2:nth-child(2)",
+      "targets": [
+        ["css=.border-2:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/nav/div[5]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5161dfa-f4a7-4970-aa9a-794ccd8ec79c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": "3000"
+    }]
+  }, {
+    "id": "745ee87e-b8e9-4b5d-8b02-19b172ae573a",
+    "name": "Envio de Contato",
+    "commands": [{
+      "id": "1f5de1bc-2ec3-48e9-a963-c1a8071a8370",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "645894d4-6c4a-49b4-a6cd-69b39e5825b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c77fba94-4abc-44c5-8bec-53b4aadfc322",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb40db70-61ca-4f1f-a8de-21cbfa2da2f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > .flex-col #name",
+      "targets": [
+        ["css=.flex > .flex-col #name", "css:finder"],
+        ["xpath=(//input[@id='name'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a41d6b40-b019-446a-be52-8a216dc4c2a2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.flex > .flex-col #name",
+      "targets": [
+        ["css=.flex > .flex-col #name", "css:finder"],
+        ["xpath=(//input[@id='name'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Joãozinho Silva 123"
+    }, {
+      "id": "47b9a09c-b777-43d6-ad67-cd2021d47cae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > .flex-col #email",
+      "targets": [
+        ["css=.flex > .flex-col #email", "css:finder"],
+        ["xpath=(//input[@id='email'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "676898a8-e9b7-4574-88fc-e5986bac1766",
+      "comment": "",
+      "command": "type",
+      "target": "css=.flex > .flex-col #email",
+      "targets": [
+        ["css=.flex > .flex-col #email", "css:finder"],
+        ["xpath=(//input[@id='email'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "joao@123.com"
+    }, {
+      "id": "2ebcac53-ec47-421f-895a-f44ff6ce6b05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > .flex-col #phone",
+      "targets": [
+        ["css=.flex > .flex-col #phone", "css:finder"],
+        ["xpath=(//input[@id='phone'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bb45b67-f5ef-4959-b373-71306a3d47b0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.flex > .flex-col #phone",
+      "targets": [
+        ["css=.flex > .flex-col #phone", "css:finder"],
+        ["xpath=(//input[@id='phone'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "123 Joãozinho"
+    }, {
+      "id": "e5736014-347c-4f21-824d-b62dc6911d65",
+      "comment": "",
+      "command": "click",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29a44197-fae6-4d1a-9a39-c51d2057cf1a",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Joãozinho"
+    }, {
+      "id": "bfc6d437-e6a1-45bf-9a18-35ffe807f041",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xxl\\3Ah-12",
+      "targets": [
+        ["css=.xxl\\3Ah-12", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8b2e306c-0e98-422f-9df7-8e2cb56cab24",
+    "name": "Footer",
+    "commands": [{
+      "id": "12d5da26-c024-44bc-8faa-b8b635dc03fe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b06613a8-0b36-424e-bc41-8b95e1027b38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdec95da-739d-4395-a0f8-c6b976e3e3bf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://open.spotify.com/show/4IK3IeDsKHbflXLQ6oy20W')]",
+      "targets": [
+        ["css=.space-x-6 > a:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://open.spotify.com/show/4IK3IeDsKHbflXLQ6oy20W')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6516b434-2a68-4340-930e-c73c0bac5082",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16757.599609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cfb5e40-d598-45a0-81bf-2e99c166c7e5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#listrow-title-episode-0 > .ListRowTitle__LineClamp-sc-1xe2if1-0",
+      "targets": [
+        ["css=#listrow-title-episode-0 > .ListRowTitle__LineClamp-sc-1xe2if1-0", "css:finder"],
+        ["xpath=//a[@id='listrow-title-episode-0']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Momento Saúde Digital S02E01 - Ultrassonografia, Endometriose e Ensino e Conteúdo Médico')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "79673846-d3a2-460f-ae65-a26b08c1f9aa",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff0db8f3-2491-4a10-81ae-c97949aeb9ea",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://www.instagram.com/medcloudbr/')]",
+      "targets": [
+        ["css=.space-x-6 > a:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/medcloudbr/')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af951ee1-35f0-4a06-aee8-b6c9244c4191",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a163ca37-1944-4b88-ba78-d14ac235a241",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ml-8",
+      "targets": [
+        ["css=.ml-8", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[7]/section/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f221e6-d5ea-4cf0-90f4-e165627245ad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16757.599609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5db8f3f-3393-4762-ace5-98cce021144f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://www.facebook.com/medcloudbr')]",
+      "targets": [
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/medcloudbr')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2303677b-6524-4b7e-b505-6bedd2d638de",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://www.youtube.com/channel/UCQZCk0wyl9vQLDt84d1Sr1w')]",
+      "targets": [
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.youtube.com/channel/UCQZCk0wyl9vQLDt84d1Sr1w')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ecc4fe-4844-4cda-b863-7fa295bb981e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://www.linkedin.com/company/medcloud/')]",
+      "targets": [
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/company/medcloud/')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dd30694-050c-4618-b549-be70d3d65bdc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login_popup_cta_form",
+      "targets": [
+        ["id=login_popup_cta_form", "id"],
+        ["css=#login_popup_cta_form", "css:finder"],
+        ["xpath=//form[@id='login_popup_cta_form']", "xpath:attributes"],
+        ["xpath=//div[@id='mount_0_0_sW']/div/div/div/div[5]/div/div/div/div/div[2]/div/div/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "730e1b54-666c-4e23-95df-b45773da7eb5",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d5efbd1-e5a5-43ab-bff4-aa4f316c6fa5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sobre",
+      "targets": [
+        ["linkText=Sobre", "linkText"],
+        ["css=li:nth-child(1) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Sobre')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'about.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e3ac0df-fc25-49f5-a9bc-dbfde15f52b0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=AboutUs",
+      "targets": [
+        ["id=AboutUs", "id"],
+        ["css=#AboutUs", "css:finder"],
+        ["xpath=//section[@id='AboutUs']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "a88d7dfa-b57c-4d6b-b3dd-9354f8615fd2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carreiras",
+      "targets": [
+        ["linkText=Carreiras", "linkText"],
+        ["css=.xxl\\3Amt-12:nth-child(2) > li:nth-child(2) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Carreiras')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'careers.html')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Carreiras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9512cb7b-bae1-463c-bbd0-14b1882905a2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.sm\\3Apx-6:nth-child(4)",
+      "targets": [
+        ["css=.sm\\3Apx-6:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='__next']/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "0a80adb8-453d-40b5-9663-d58983c069e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Política de privacidade",
+      "targets": [
+        ["linkText=Política de privacidade", "linkText"],
+        ["css=li:nth-child(3) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Política de privacidade')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pdfs/Medcloud-Privacy-Policy.pdf')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Política de privacidade')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6278",
+      "windowTimeout": 2000
+    }, {
+      "id": "637cd74e-d080-42ef-8051-fb2ca26b11a2",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "726c8f04-006a-47e4-aab0-14596a0a85e7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6278}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fb77786-1a10-4fa9-801f-c8af725b9135",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40fdd697-b093-442d-9a15-c8b33fffe5bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Termos de uso",
+      "targets": [
+        ["linkText=Termos de uso", "linkText"],
+        ["css=li:nth-child(4) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Termos de uso')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pdfs/Medcloud-Terms-Use.pdf')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Termos de uso')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9893",
+      "windowTimeout": 2000
+    }, {
+      "id": "c58c96ad-7bea-4b70-9a44-085af49e193a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9893}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "180ef013-eab4-4683-8152-cc289eaa9f4c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2f631f3-a415-48e7-aed1-3fd7df9ef7bb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(@href, 'https://apps.apple.com/br/app/medcloud-2-0/id1486223140')])[3]",
+      "targets": [
+        ["css=.sm\\3Aw-full:nth-child(5) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://apps.apple.com/br/app/medcloud-2-0/id1486223140')])[3]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6223",
+      "windowTimeout": 2000
+    }, {
+      "id": "6781520f-fe99-4d62-a653-b25619cab11c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6223}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f90a28ff-638c-4609-8593-59d82f6f1806",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7384e0e-c1f3-4c92-94c1-7a330cf01c12",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(@href, 'https://play.google.com/store/apps/details?id=co.medcloud.android')])[3]",
+      "targets": [
+        ["css=.sm\\3Aw-full:nth-child(5) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://play.google.com/store/apps/details?id=co.medcloud.android')])[3]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9214",
+      "windowTimeout": 2000
+    }, {
+      "id": "ed27684d-63d9-45b8-acb7-7e521f56cafe",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9214}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7077aaf1-0866-4749-b7d5-f4eb480b855a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2d840c9d-6d5f-4612-aaf9-c4536ce397e3",
+    "name": "Candidatura para vaga",
+    "commands": [{
+      "id": "a2e03369-e172-46eb-954b-a151afc76fce",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/careers/web-designer.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d4d67ef-42a4-4f45-b667-7a06bbeae68e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31d76bed-7c2b-4683-9789-2501bc678a9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=sobrenome-input", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47e83221-bf9b-4abc-b285-74427ad6f13b",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=sobrenome-input", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Silva 123"
+    }, {
+      "id": "997af2ad-80b3-4ade-b509-ea43a536cffe",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=e-mail-input", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83dc30a6-f997-4ad8-9c08-f7546f99ecdb",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=e-mail-input", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "123@123.com"
+    }, {
+      "id": "0270507f-2160-443f-a580-a2aa73b159bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=telefone-input", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eed1349-3b9a-447a-bf26-5212fb5b5299",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=telefone-input", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "123 Joãozinho"
+    }, {
+      "id": "ba91a5ee-2225-4b3e-b89c-956bd8dcc34e",
+      "comment": "",
+      "command": "click",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ff9f191-671f-418b-8066-9e5fc98971e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Joãozinho"
+    }, {
+      "id": "c4ec5867-5228-4740-b8ac-bd97c9c0c371",
+      "comment": "",
+      "command": "click",
+      "target": "id=fileName",
+      "targets": [
+        ["id=fileName", "id"],
+        ["css=#fileName", "css:finder"],
+        ["xpath=//label[@id='fileName']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div[3]/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Anexar currículo...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afbc6c6c-4dd7-40d6-9602-9c3d52bc2f26",
+      "comment": "",
+      "command": "type",
+      "target": "id=curriculum",
+      "targets": [
+        ["id=curriculum", "id"],
+        ["name=curriculum", "name"],
+        ["css=#curriculum", "css:finder"],
+        ["xpath=//input[@id='curriculum']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\ab67616d0000b273db16db05648965be0768aabb.jfif"
+    }, {
+      "id": "35a5291c-5c9e-4cde-b4a4-658933b08c1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-xs",
+      "targets": [
+        ["css=.text-xs", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section/section[2]/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "78147819-267f-4097-873b-2d91979ffd4c",
+    "name": "Acessar Carreiras pelo detalhe da vaga",
+    "commands": [{
+      "id": "6d8b7115-4499-416c-a797-e71ecf04a8fe",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/careers/web-designer.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e9e8b2e-e392-4d21-860a-6c4b42908f99",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7923581b-5f11-402d-9d64-4689f4e88cb7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Carreiras",
+      "targets": [
+        ["linkText=Carreiras", "linkText"],
+        ["css=.xxl\\3Amt-12:nth-child(2) > li:nth-child(2) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Carreiras')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[2]/section/div/div[2]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'careers')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Carreiras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85e3dd73-394c-4173-9d95-3a928dfb5e2c",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1[contains(.,'Faça parte do Time Medcloud!')]",
+      "targets": [
+        ["css=.sm\\3Atext-left", "css:finder"],
+        ["xpath=//div[@id='__next']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Faça parte do Time Medcloud!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cad632f4-1910-40a2-b5ec-0eff9ec97030",
+    "name": "Acessar Sobre pelo detalhe da vaga",
+    "commands": [{
+      "id": "72e52af0-b926-495e-b9da-5f90ff342807",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/careers/web-designer.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b81224c-f3e2-4bbc-8097-7a70b0bd429e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dba5b47f-7081-4280-bc9a-e1345bc7917d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sobre",
+      "targets": [
+        ["linkText=Sobre", "linkText"],
+        ["css=li:nth-child(1) > .hover\\3Atext-secondary", "css:finder"],
+        ["xpath=//a[contains(text(),'Sobre')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/section[2]/section/div/div[2]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'about')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sobre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8b2351a-8785-46a1-b6b0-fa135b67da03",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h3[contains(.,'Sobre nós')]",
+      "targets": [
+        ["css=.leading-10:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='AboutUs']/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Sobre nós')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "23d197c5-f1f8-4c41-bee8-795a196edc8d",
+    "name": "Pedido teste grátis",
+    "commands": [{
+      "id": "3f1d7432-fbc9-4c5c-b88b-ab2582880523",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a3b21f4-6dc4-4624-af1b-d153bf26fe84",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58bac26f-9e4c-40f5-8878-d987b2634416",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Testar grátis')]",
+      "targets": [
+        ["css=.h-full > .text-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/nav/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Testar grátis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04f52be3-d741-46df-bf32-6cdc637d8123",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=nome-input", "name"],
+        ["css=.mt-4 #name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98abb12a-727c-4ca7-a19e-6e28c02e0b49",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=nome-input", "name"],
+        ["css=.mt-4 #name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Joãozinho Silva 123"
+    }, {
+      "id": "a93033ec-1095-4830-9aa8-571366f60203",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=e-mail-input", "name"],
+        ["css=.mt-4 #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92f8784c-ba33-4189-87b3-885bc53cb1e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=e-mail-input", "name"],
+        ["css=.mt-4 #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "123@123.com"
+    }, {
+      "id": "f7e398ad-be5e-4235-b8f0-1f59732a5a99",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=telefone-input", "name"],
+        ["css=.mt-4 #phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "151.04998779296875,5"
+    }, {
+      "id": "db90ad8c-aba3-40c7-99fe-608559ac459e",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=telefone-input", "name"],
+        ["css=.mt-4 #phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "151.04998779296875,5"
+    }, {
+      "id": "c1753748-dc03-413d-a2ab-31516e4ecd8d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=telefone-input", "name"],
+        ["css=.mt-4 #phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "151.04998779296875,5"
+    }, {
+      "id": "21d92d2b-5d0d-43e6-9a68-82538d1ac67b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-4:nth-child(3)",
+      "targets": [
+        ["css=.mt-4:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c9427b2-6bf1-48d3-a52f-25f9313fb70c",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=telefone-input", "name"],
+        ["css=.mt-4 #phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9159627-d49c-4f0e-add6-2147b374d58c",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=telefone-input", "name"],
+        ["css=.mt-4 #phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "123 Joãozinho"
+    }, {
+      "id": "7ac41f1e-c9a4-444f-8c9f-ac37d870e845",
+      "comment": "",
+      "command": "click",
+      "target": "id=pos",
+      "targets": [
+        ["id=pos", "id"],
+        ["css=#pos", "css:finder"],
+        ["xpath=//select[@id='pos']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[4]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f5ca499-19b1-42f0-8d03-5e92e69cdf18",
+      "comment": "",
+      "command": "select",
+      "target": "id=pos",
+      "targets": [],
+      "value": "label=Gestor de T.I"
+    }, {
+      "id": "9b8f7744-2cdb-466d-b715-b54699cdef71",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Solicitar uma conta grátis para clínica ou hospital')]",
+      "targets": [
+        ["css=.mt-8 > .xxl\\3Atext-base", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Solicitar uma conta grátis para clínica ou hospital')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22fd4598-35be-4eeb-81f8-eb0012d69ba3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.z-50:nth-child(4) .fill-current",
+      "targets": [
+        ["css=.z-50:nth-child(4) .fill-current", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9a085885-6b42-4602-9c48-f29c576c7aff",
+    "name": "Abrir videos",
+    "commands": [{
+      "id": "bd88f88d-b07d-44f4-a155-8899b598a42a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4980c4a6-c1b8-44ec-b357-7ce6c4f34fd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e503cb5-2bc7-4a9e-afa9-ec0093c28a32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-vid > picture",
+      "targets": [
+        ["css=.w-vid > picture", "css:finder"],
+        ["xpath=//section[@id='Home']/section[6]/div[2]/button/picture", "xpath:idRelative"],
+        ["xpath=//button/picture", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b770da35-6e0a-4e1a-936c-71f44fd774ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Video_FloatingVideo__closeButton__2apz6",
+      "targets": [
+        ["css=.Video_FloatingVideo__closeButton__2apz6", "css:finder"],
+        ["xpath=(//button[@type='button'])[37]", "xpath:attributes"],
+        ["xpath=//div[@id='modal']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ceb0cae-97a9-4c44-a606-bcd6a2bb59c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xxl\\3Aw-88:nth-child(1) > picture",
+      "targets": [
+        ["css=.xxl\\3Aw-88:nth-child(1) > picture", "css:finder"],
+        ["xpath=//section[@id='Home']/div[2]/section/button/picture", "xpath:idRelative"],
+        ["xpath=//section/button/picture", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eca3737-22c3-4edd-8273-7778c2d2949b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Video_FloatingVideo__closeButton__2apz6",
+      "targets": [
+        ["css=.Video_FloatingVideo__closeButton__2apz6", "css:finder"],
+        ["xpath=(//button[@type='button'])[37]", "xpath:attributes"],
+        ["xpath=//div[@id='modal']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6bc4cdb-5776-468a-83d8-ec972338bfcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xxl\\3Amt-12:nth-child(2) > picture",
+      "targets": [
+        ["css=.xxl\\3Amt-12:nth-child(2) > picture", "css:finder"],
+        ["xpath=//section[@id='Home']/div[2]/section/button[2]/picture", "xpath:idRelative"],
+        ["xpath=//button[2]/picture", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d95bfc5-f9d4-463c-b6ab-dc4b3295e5eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Video_FloatingVideo__closeButton__2apz6",
+      "targets": [
+        ["css=.Video_FloatingVideo__closeButton__2apz6", "css:finder"],
+        ["xpath=(//button[@type='button'])[37]", "xpath:attributes"],
+        ["xpath=//div[@id='modal']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a624c000-c22e-4f08-9ebf-c974828db5be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xxl\\3Aw-88:nth-child(3) > picture",
+      "targets": [
+        ["css=.xxl\\3Aw-88:nth-child(3) > picture", "css:finder"],
+        ["xpath=//section[@id='Home']/div[2]/section/button[3]/picture", "xpath:idRelative"],
+        ["xpath=//button[3]/picture", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f404852f-891d-4a7b-b4bb-f9f4fbeb28c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Video_FloatingVideo__closeButton__2apz6",
+      "targets": [
+        ["css=.Video_FloatingVideo__closeButton__2apz6", "css:finder"],
+        ["xpath=(//button[@type='button'])[37]", "xpath:attributes"],
+        ["xpath=//div[@id='modal']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b08aa89-eeae-4458-8e0f-35a81cf19eeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xxl\\3Amt-12:nth-child(4) > picture",
+      "targets": [
+        ["css=.xxl\\3Amt-12:nth-child(4) > picture", "css:finder"],
+        ["xpath=//section[@id='Home']/div[2]/section/button[4]/picture", "xpath:idRelative"],
+        ["xpath=//button[4]/picture", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3e30f50-fb72-491a-be2f-a84d6664b9e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Video_FloatingVideo__closeButton__2apz6",
+      "targets": [
+        ["css=.Video_FloatingVideo__closeButton__2apz6", "css:finder"],
+        ["xpath=(//button[@type='button'])[37]", "xpath:attributes"],
+        ["xpath=//div[@id='modal']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6091cc99-d7da-43e2-a180-21d0e77b1100",
+      "comment": "",
+      "command": "click",
+      "target": "css=section > .flex-col:nth-child(3)",
+      "targets": [
+        ["css=section > .flex-col:nth-child(3)", "css:finder"],
+        ["xpath=//section[@id='PACS']/section[2]/section/div", "xpath:idRelative"],
+        ["xpath=//section[3]/section[2]/section/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "584b9ae1-d863-4e6a-a3ed-4699aca8561e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cursor-pointer > .xxl\\3Atext-lg",
+      "targets": [
+        ["css=.cursor-pointer > .xxl\\3Atext-lg", "css:finder"],
+        ["xpath=//section[@id='PACS']/section[2]/section/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[3]/section[2]/section/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e053383-bec0-4813-92de-5c32e0128e3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Video_FloatingVideo__closeButton__2apz6",
+      "targets": [
+        ["css=.Video_FloatingVideo__closeButton__2apz6", "css:finder"],
+        ["xpath=(//button[@type='button'])[37]", "xpath:attributes"],
+        ["xpath=//div[@id='modal']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2b9f3b-ea58-4ac4-b51e-2da3ce8a629a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[19]",
+      "targets": [
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=(//div[@id='accordion']/button)[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'No seu desktop ou laptop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4955cd4c-f42c-443d-98f0-507779736a0d",
+    "name": "Acessar site pelo carreiras",
+    "commands": [{
+      "id": "90156e6a-e7be-4fd3-b320-56564c16de0b",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/careers.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75941e43-98c8-4973-9116-54d5ad593f86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48d73203-50c6-4f23-907f-bf0d62cb30e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Voltar ao site",
+      "targets": [
+        ["linkText=Voltar ao site", "linkText"],
+        ["css=.px-6", "css:finder"],
+        ["xpath=//a[contains(text(),'Voltar ao site')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/nav/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/careers')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Voltar ao site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3710de01-cca1-4d7c-a4b6-720658ab75b3",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//section[@id='Home']/section/h1",
+      "targets": [
+        ["css=.sm\\3Atext-mob11xl", "css:finder"],
+        ["xpath=//section[@id='Home']/section/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8801069a-0eda-4fe6-b454-2ff764944a1a",
+    "name": "Checar se tem foto no depoimento",
+    "commands": [{
+      "id": "d6f0095f-992e-4744-9721-0cd0c417927e",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.medcloud.link/careers.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "834324d8-97f6-4844-adf1-80af1526034a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e731a17-6019-4eba-966e-ad68d8ef407f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@src='Eric-Plugge.png']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2c7ab43c-e2ba-4a28-b2bf-609f483d4e7b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ac04a7b6-ffc1-4b79-ad9c-c9e5fd45895d"]
+  }],
+  "urls": ["https://qa.medcloud.link/", "https://qa.medcloud.link/careers/web-designer.html", "https://qa.medcloud.link/careers.html"],
+  "plugins": []
+}

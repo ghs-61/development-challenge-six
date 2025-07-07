@@ -1,0 +1,9 @@
+Necessário Node.js e npm
+
+npm init -y
+
+npm i selenium-webdriver --save
+npm i chromedriver --save
+npm i puppeteer --save
+
+para rodar - node arquivo.js
